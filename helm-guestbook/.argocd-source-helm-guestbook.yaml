@@ -10,5 +10,5 @@ helm:
     value: nginx
     forcestring: true
   - name: nginx.tag
-    value: "1.20"
+    value: 1.20.0
     forcestring: true

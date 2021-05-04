@@ -1,14 +1,14 @@
 helm:
   parameters:
-  - name: guestbook.image
+  - name: image.name
     value: gcr.io/heptio-images/ks-guestbook-demo
     forcestring: true
-  - name: guestbook.tag
+  - name: image.tag
     value: "0.2"
     forcestring: true
   - name: nginx.image
     value: nginx
     forcestring: true
   - name: nginx.tag
-    value: "1.20"
+    value: 1.20.0
     forcestring: true

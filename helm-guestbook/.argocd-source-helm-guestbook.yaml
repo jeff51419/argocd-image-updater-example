@@ -6,9 +6,9 @@ helm:
   - name: guestbook.tag
     value: "0.2"
     forcestring: true
-  - name: image.name
+  - name: nginx.image
     value: nginx
     forcestring: true
-  - name: image.tag
-    value: "1.20"
+  - name: nginx.tag
+    value: 1.20.0
     forcestring: true

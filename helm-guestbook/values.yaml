@@ -8,7 +8,7 @@ guestbook:
   pullPolicy: IfNotPresent
 
 nginx:
-  image: nginx
+  image: public.ecr.aws/nginx/nginx
   tag: 1.18.0
   pullPolicy: IfNotPresent
 
